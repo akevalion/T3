@@ -24,7 +24,7 @@ TictactoeServer >> start [
 	games:= OrderedCollection new.
 	(ZnServer startDefaultOn: 1701) 
 		delegate: (TictactoeDelegate new
-			directory: 'pharo-local\iceberg\TicTaeToe-Game\server docs\' asFileReference; 
+			directory: 'pharo-local\iceberg\T3\server docs\' asFileReference; 
 			games: games;
 			yourself).	
 			
